@@ -1,0 +1,5 @@
+Component: main
+Origin: kalian
+Label: kalian
+Architecture: amd64
+Description: Apt repository for armbian/kali/debian support

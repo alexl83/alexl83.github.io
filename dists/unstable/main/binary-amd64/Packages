@@ -1,0 +1,98 @@
+Package: bash
+Source: bash (5.2.21-2.1)
+Version: 5.2.21-2.1+b3
+Architecture: amd64
+Essential: yes
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 7215
+Pre-Depends: libc6 (>= 2.38), libtinfo6 (>= 6)
+Depends: base-files (>= 2.1.12), debianutils (>= 5.6-0.1)
+Recommends: bash-completion
+Suggests: bash-doc
+Multi-Arch: foreign
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Priority: required
+Section: shells
+Filename: pool/main/b/bash/bash_5.2.21-2.1+b3_amd64.deb
+Size: 1651826
+SHA256: eb86ee69e1ec20fb42ee1d09e9828346abdde17db33d6c9d188fa51fe4504c81
+SHA1: 5ad6519047f9af6e3c1fe99c9d0236ea629f7a82
+MD5sum: 50a4c1aa5488932b0c934e1049a44157
+Description: GNU Bourne Again SHell
+ Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file.  Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+ .
+ Bash is ultimately intended to be a conformant implementation of the
+ IEEE POSIX Shell and Tools specification (IEEE Working Group 1003.2).
+ .
+ The Programmable Completion Code, by Ian Macdonald, is now found in
+ the bash-completion package.
+
+Package: bash-builtins
+Source: bash (5.2.21-2.1)
+Version: 5.2.21-2.1+b3
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 1181
+Depends: bash (= 5.2.21-2.1+b3)
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Priority: optional
+Section: utils
+Filename: pool/main/b/bash/bash-builtins_5.2.21-2.1+b3_amd64.deb
+Size: 163486
+SHA256: 0c962d2064279cbb1fd4aca5436437df7b57beea7ba644adb5b35d6749d7545e
+SHA1: 008a171ac421e254fa30500caedfc4009b66f0de
+MD5sum: df6b27500fe730614ca7c6ad7366cbf9
+Description: Bash loadable builtins - headers & examples
+ Bash can dynamically load new builtin commands.  Included are the
+ necessary headers to compile your own builtins and lots of examples.
+
+Package: bash-doc
+Source: bash (5.2.21-2.1)
+Version: 5.2.21-2.1+b3
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 3122
+Replaces: bash (<< 4.3-2)
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Priority: optional
+Section: doc
+Filename: pool/main/b/bash/bash-doc_5.2.21-2.1+b3_all.deb
+Size: 1598904
+SHA256: e32b8391cc9c70beda18e935c117ba30d70772ee1037f95816d73e778d5f7d18
+SHA1: 02e70262823fdab7d3a2aa18416ea446453ccf7c
+MD5sum: c19d71faf49ef15ded45300ddbb3af3e
+Description: Documentation and examples for the GNU Bourne Again SHell
+ Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file.  Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+ .
+ This package contains the distributable documentation, all the
+ examples and the main changelog.
+
+Package: bash-static
+Source: bash (5.2.21-2.1)
+Version: 5.2.21-2.1+b3
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 2580
+Depends: passwd (>= 1:4.0.3-10), debianutils (>= 5.6-0.1)
+Suggests: bash-doc
+Built-Using: glibc (= 2.39-0ubuntu8.2)
+Multi-Arch: foreign
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Priority: optional
+Section: shells
+Filename: pool/main/b/bash/bash-static_5.2.21-2.1+b3_amd64.deb
+Size: 1174486
+SHA256: 9b4015760ca854f05a405448a2fafd9d338e6803cbeae1cf868c9c354f63f71c
+SHA1: d8a4fbec3d63b83bc3eee6888ae3a83b27742f7d
+MD5sum: db134964e1dbfc77f82484d9be43ffcf
+Description: GNU Bourne Again SHell (static version)
+ Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file.  Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+ .
+ Statically linked.
+
