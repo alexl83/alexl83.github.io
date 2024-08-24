@@ -8,6 +8,5 @@
  	sudo apt update
 
 ## Disclaimer
-
- - **use at your own risk**
+ - _**use at your own risk**_
  - _**No support provided**_
