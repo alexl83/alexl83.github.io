@@ -6,8 +6,9 @@
 	curl --max-time 60 -4 -fsSL "https://github.com/alexl83/alexl83.github.io/raw/main/kalian.asc" | sudo gpg --dearmor -o /usr/share/keyrings/kalian.gpg
 	echo "deb [arch=${ARCH} signed-by=/usr/share/keyrings/kalian.gpg] https://raw.githubusercontent.com/alexl83/alexl83.github.io/main unstable main" | sudo tee /etc/apt/sources.list.d/kalian.list
  	sudo apt update
+  
 Choose ${ARCH} based on your system architecture: this repo supports amd64 and arm64 
 
 ## Disclaimer
  - _**use at your own risk**_
- - _**No support provided**_
+ - _**no support provided**_
