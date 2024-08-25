@@ -1,6 +1,6 @@
 Package: bash
-Source: bash (5.2.21-2.1)
-Version: 5.2.21-2.1+b3
+Source: bash (5.2.32-1)
+Version: 5.2.32-1+b1
 Architecture: amd64
 Essential: yes
 Maintainer: Matthias Klose <doko@debian.org>
@@ -13,11 +13,11 @@ Multi-Arch: foreign
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Priority: required
 Section: shells
-Filename: pool/main/b/bash/bash_5.2.21-2.1+b3_amd64.deb
-Size: 1651826
-SHA256: eb86ee69e1ec20fb42ee1d09e9828346abdde17db33d6c9d188fa51fe4504c81
-SHA1: 5ad6519047f9af6e3c1fe99c9d0236ea629f7a82
-MD5sum: 50a4c1aa5488932b0c934e1049a44157
+Filename: pool/main/b/bash/bash_5.2.32-1+b1_amd64.deb
+Size: 1654484
+SHA256: 8ac9cea43dc9db412bef86b2089f8401c208db9def8f6553663007d83a4a5f30
+SHA1: 85dc53b5b1b48ccbda3320760c2aa934e166c09e
+MD5sum: ec1df6df49b0a74f0532d29869bec048
 Description: GNU Bourne Again SHell
  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file.  Bash also
@@ -30,20 +30,20 @@ Description: GNU Bourne Again SHell
  the bash-completion package.
 
 Package: bash-builtins
-Source: bash (5.2.21-2.1)
-Version: 5.2.21-2.1+b3
+Source: bash (5.2.32-1)
+Version: 5.2.32-1+b1
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 1181
-Depends: bash (= 5.2.21-2.1+b3)
+Depends: bash (= 5.2.32-1+b1)
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Priority: optional
 Section: utils
-Filename: pool/main/b/bash/bash-builtins_5.2.21-2.1+b3_amd64.deb
-Size: 163486
-SHA256: 0c962d2064279cbb1fd4aca5436437df7b57beea7ba644adb5b35d6749d7545e
-SHA1: 008a171ac421e254fa30500caedfc4009b66f0de
-MD5sum: df6b27500fe730614ca7c6ad7366cbf9
+Filename: pool/main/b/bash/bash-builtins_5.2.32-1+b1_amd64.deb
+Size: 163432
+SHA256: d86753c33b2c5e36a886fcd2e511532368afaca3d3fa69c628ee23e513ab4ada
+SHA1: 60c7e96787f9362e8735d71fcc27559e4f0b82ad
+MD5sum: 2d2700a8a592cbf73f3362e5a88a036e
 Description: Bash loadable builtins - headers & examples
  Bash can dynamically load new builtin commands.  Included are the
  necessary headers to compile your own builtins and lots of examples.
@@ -72,23 +72,23 @@ Description: Documentation and examples for the GNU Bourne Again SHell
  examples and the main changelog.
 
 Package: bash-static
-Source: bash (5.2.21-2.1)
-Version: 5.2.21-2.1+b3
+Source: bash (5.2.32-1)
+Version: 5.2.32-1+b1
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 2580
+Installed-Size: 2584
 Depends: passwd (>= 1:4.0.3-10), debianutils (>= 5.6-0.1)
 Suggests: bash-doc
-Built-Using: glibc (= 2.39-0ubuntu8.2)
+Built-Using: glibc (= 2.39-0ubuntu8.3)
 Multi-Arch: foreign
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Priority: optional
 Section: shells
-Filename: pool/main/b/bash/bash-static_5.2.21-2.1+b3_amd64.deb
-Size: 1174486
-SHA256: 9b4015760ca854f05a405448a2fafd9d338e6803cbeae1cf868c9c354f63f71c
-SHA1: d8a4fbec3d63b83bc3eee6888ae3a83b27742f7d
-MD5sum: db134964e1dbfc77f82484d9be43ffcf
+Filename: pool/main/b/bash/bash-static_5.2.32-1+b1_amd64.deb
+Size: 1174524
+SHA256: 2fc3a43c83f8213824bbe46e0db80bf5a20587b16ff1b8c1e90bf0696291c6aa
+SHA1: d11bc7afcf620c7661ee1de6eec2187b4fcd5c39
+MD5sum: a005f9907247370bc8e649b1bfa334fe
 Description: GNU Bourne Again SHell (static version)
  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file.  Bash also

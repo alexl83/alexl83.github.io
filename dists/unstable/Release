@@ -1,7 +1,7 @@
 Origin: kalian
 Label: kalian
 Codename: unstable
-Date: Sun, 25 Aug 2024 13:05:18 UTC
+Date: Sun, 25 Aug 2024 13:16:33 UTC
 Architectures: arm64 amd64
 Components: main
 Description: Apt repository for armbian/kali/debian support
@@ -9,8 +9,8 @@ MD5Sum:
  ddbccb737a84da09897f0ee3f57d2f9c 6888 main/binary-arm64/Packages
  b9e961a4ae899f5ca19b8cf4474991dc 2834 main/binary-arm64/Packages.gz
  22748a5a87a967fd45d9a9e49d1ffa57 125 main/binary-arm64/Release
- a86f23ccc6cc38141d5712a5cf94a177 3655 main/binary-amd64/Packages
- 43c7b42563378d67ddb48cc9acd37cf3 1436 main/binary-amd64/Packages.gz
+ 421b5a99ceb3800aae691ad4a061def3 3635 main/binary-amd64/Packages
+ a24bb285bcb7b01ce987938960a9ccd3 1421 main/binary-amd64/Packages.gz
  2bd1c3adebe63256e94e521b7d8e914e 125 main/binary-amd64/Release
  51be7669944db12d280a86dc8e436f08 1685 main/source/Sources
  34c64dc2f93f138f6cf0aa423d9c4973 907 main/source/Sources.gz
@@ -19,8 +19,8 @@ SHA1:
  704848e0549a4afb31f06a1a068044c62788cf1b 6888 main/binary-arm64/Packages
  70c387eb8e8b08eadb8ea9ffa8f914e1eab2463f 2834 main/binary-arm64/Packages.gz
  b9bd562321353862efd80df5316e2e1b11b8004c 125 main/binary-arm64/Release
- efa4280706cd3ff9b8a448dcf4ac2fe328ff328b 3655 main/binary-amd64/Packages
- 1131c4ea4bf0c37d5ec865e7b9b091e722299cee 1436 main/binary-amd64/Packages.gz
+ 0971d623ebcd426e8eeaabe139c92e4b8d420038 3635 main/binary-amd64/Packages
+ 6880f8562b9ed02440bd1ba8877cf597a64b75de 1421 main/binary-amd64/Packages.gz
  840716b801c83c8007290dd860eafbbc26c446c8 125 main/binary-amd64/Release
  71259b9e88f872d55b26e3b565cfdda74ca48022 1685 main/source/Sources
  297ff10d6422304a4b81f33ca4f45c8bec40e0ee 907 main/source/Sources.gz
@@ -29,8 +29,8 @@ SHA256:
  3216ece7aa85e5aea98082e6f15ed08f31954e911d747afc179e137e0ff7653e 6888 main/binary-arm64/Packages
  677866010299e8e76cb759bb0df29009cc43a30a5cdbd99af2114558b32709f2 2834 main/binary-arm64/Packages.gz
  78539cd0c318b516ce34e2de49f8bc0d1f89eb62ddbe04a50afef5ec3e14a0c6 125 main/binary-arm64/Release
- dea30a709477e86c734afc09692e039b33b4fca1f6294c86c195f966c2c293b0 3655 main/binary-amd64/Packages
- 9eee503000d8c68145967e0c5c2d47885fb9da722e8d106521b9284263653d4d 1436 main/binary-amd64/Packages.gz
+ c3cbbf8a10baf2c6c8d792baf334f4a4c1bfee176faf55489ba633c998118a0b 3635 main/binary-amd64/Packages
+ 1bffc4c216ad18e8cb3993e4bfe2719c8d03b86847e142b62cd92e98438ef776 1421 main/binary-amd64/Packages.gz
  2223e0efeb96229f75334c439d715232873849f0c84fbbd7ac600b4a21c6918c 125 main/binary-amd64/Release
  b4da85ff57ab616ef2002fa4ec2ce2a3c139025125a5a3fcf8046bc7e71bd250 1685 main/source/Sources
  9c7d95677134d20b515096e83d62202c1878ce27c839f56f4224b6b952d67cd9 907 main/source/Sources.gz
