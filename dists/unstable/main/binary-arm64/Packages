@@ -1,6 +1,6 @@
 Package: bash
-Source: bash (5.2.21-2.1)
-Version: 5.2.21-2.1+b3
+Source: bash (5.2.32-1)
+Version: 5.2.32-1+b1
 Architecture: arm64
 Essential: yes
 Maintainer: Matthias Klose <doko@debian.org>
@@ -13,11 +13,11 @@ Multi-Arch: foreign
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Priority: required
 Section: shells
-Filename: pool/main/b/bash/bash_5.2.21-2.1+b3_arm64.deb
-Size: 1455636
-SHA256: 8472a18456538b9ea1b2d58087cb99b2f3e896bb86bc37e10970e73cb62bfdcd
-SHA1: f8e537435e0cf7b0f55f025f2853f680ccdd8147
-MD5sum: 71e58239dd2cedd3c7916e57993e3c0c
+Filename: pool/main/b/bash/bash_5.2.32-1+b1_arm64.deb
+Size: 1453780
+SHA256: 6432d24259277737791c234d05347d77509a4d3d9d6c149ddffaf859ad54802e
+SHA1: 2fff9db7fbc3759d65f9a3d147896f9a1437047f
+MD5sum: 1226282686cf134b668b2eec653bcd02
 Description: GNU Bourne Again SHell
  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file.  Bash also
@@ -30,63 +30,63 @@ Description: GNU Bourne Again SHell
  the bash-completion package.
 
 Package: bash-builtins
-Source: bash (5.2.21-2.1)
-Version: 5.2.21-2.1+b3
+Source: bash (5.2.32-1)
+Version: 5.2.32-1+b1
 Architecture: arm64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 2997
-Depends: bash (= 5.2.21-2.1+b3)
+Depends: bash (= 5.2.32-1+b1)
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Priority: optional
 Section: utils
-Filename: pool/main/b/bash/bash-builtins_5.2.21-2.1+b3_arm64.deb
-Size: 161696
-SHA256: c5038617104078aa0dc4d3c643fb50672a671427f1deb9fd5b043200a70d86b0
-SHA1: 4afa51443b9ca1a115158f19893f17e5fa1389a1
-MD5sum: aae6905da69d4cfc1479ed0b16c1d314
+Filename: pool/main/b/bash/bash-builtins_5.2.32-1+b1_arm64.deb
+Size: 161724
+SHA256: ced4e9b43072a78edbc6f4a2aea28ac8bdfce8e422a01cd3b3053b1ab217972c
+SHA1: 9b3104e6bf4620ab56a0a19ebdb5ac556d9d8f33
+MD5sum: 9240916027a7f1a85bec186e8605e229
 Description: Bash loadable builtins - headers & examples
  Bash can dynamically load new builtin commands.  Included are the
  necessary headers to compile your own builtins and lots of examples.
 
 Package: bash-builtins-dbgsym
-Source: bash (5.2.21-2.1)
-Version: 5.2.21-2.1+b3
+Source: bash (5.2.32-1)
+Version: 5.2.32-1+b1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 415
-Depends: bash-builtins (= 5.2.21-2.1+b3)
+Depends: bash-builtins (= 5.2.32-1+b1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bash/bash-builtins-dbgsym_5.2.21-2.1+b3_arm64.deb
-Size: 154712
-SHA256: 1dce0a2fb8bc87051fbf54d27cee8f55c19c747ee7a0da545516956085047014
-SHA1: cb84a51ceec50a394bb9f7506843549f8eb6b43d
-MD5sum: 672bdc171b01543cbdb0bb3c060f5eaf
+Filename: pool/main/b/bash/bash-builtins-dbgsym_5.2.32-1+b1_arm64.deb
+Size: 154708
+SHA256: 0a1d2eb7f02ac09b33762c9b331e4d89a8f5918ffebffb4cf972a00c0b198719
+SHA1: fd7f54e0b3a75463ce52d384da55b46a1531a7e5
+MD5sum: ea6ac36d017d3832938e95baa1fe00e9
 Description: debug symbols for bash-builtins
 Build-Ids: 113ea09e231d8d270b1a47784080141b8cdad84d 38255ad841b1fd44456b5956c652348df16bf041 3857e78fc4b6bede874d0689c28a94af83fae18a 3becff5453b7cce09c5435dcf4883448619dac1e 42a272eadb850453fbb8f1242496aad3e6ed444e 447069504f3a07a7081b3034848b72c4a5c2e3d6 4c87ab76ab99a199d7671586f1913233cfd1204d 4f25afbe0dff797089b37393a3f93bbf491b677b 50e2ad6d0c3fe81913f4a3af9d135a35f2a9c27d 61f803be16d0e73500d0129636d479e6d3166ef7 6c0fe3d9391a0b4fe5b1289c5a51ba534ce8027e 6e6c956b9a8b1db7c5e2accef8b0704144a1db5d 73f6d140ca68d0d3f3ac4b3915d1e9a647830a78 7f13ee71d35c3578ba7cc6b5c7a56f1cd8c49fa7 7f543743931f24a087bc62fe39b01356295285ef 7f6b5f5329bd4a45bd1b8dfafa51ebf77f022017 86ef1b341fe9d055e0ac38608713cdab4faa9738 8a95d888e68e7cfd0ea4bb26f6da0ba7e9b60e5b 902341baced612b57ab9558b92a7be0a6e1330dd 9912b3cd79038f6a2ecd15a8e5e34993ed3be59f 9ec21d885d9956273e92486a2b0f3b08393833ff a0d08d53f476e9d6acdc86df5311633e96425d3e a0f7c682267cd542ec04ee8dfbb17006eff2ff14 a90984b35c4b8de139fe1ebc93b5a98324a7f3c9 b4409416ec62a4d33b9874fb566a2aeffe461307 b451b3efb2c97ed71000db9a13c8af7b600d26a0 b45b04e7a94ec602f7141a996f0c2e3e91a7c164 cc0a0eda43df112d456abdf9f8e834963ebb492c d8bf969d2304000e9222910471054f56dd74f809 d9bf5a4471135da4afe08c373bc49b257130b1a3 da9fcf5a158b569a906dacd16086609d96e74660 ef579373a045a4026d4b393eb8211f0fcd510f0b ef6ce4b9f471299d8cf22037589a37e851f2cbed f1ba777b1c60abe2a3e776adef01a9e074b88150 f770f9e46ea67dcb4783a8de75eac837d8881f58 f9f44290b94cd933fa91b52eb58e9faaece421b9
 
 Package: bash-dbgsym
-Source: bash (5.2.21-2.1)
-Version: 5.2.21-2.1+b3
+Source: bash (5.2.32-1)
+Version: 5.2.32-1+b1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 1584
-Depends: bash (= 5.2.21-2.1+b3)
+Depends: bash (= 5.2.32-1+b1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bash/bash-dbgsym_5.2.21-2.1+b3_arm64.deb
-Size: 1467372
-SHA256: 5cc33e96db9a0070b124581443b437e9018b5b0bfcc7918298231678f73cb49c
-SHA1: 0db992f068afaeabe634660ee41be4f740bf5a2d
-MD5sum: c5edce7179308d60feef19e1bb84a8a8
+Filename: pool/main/b/bash/bash-dbgsym_5.2.32-1+b1_arm64.deb
+Size: 1467404
+SHA256: 73d8e93d4f0ae70f3621f8ffb1d1ef46480f07d497b09ec8d477f56b9a89517f
+SHA1: a390b681bd93422b14d5d7ce5d27502ad4a2b778
+MD5sum: 83568c9e7c107003d661efa49cf2f8aa
 Description: debug symbols for bash
-Build-Ids: 40962b71b2ac9e47f62bad7f1153d44235ba61e5 ce8d1fe61e35895dad56e3229131326d2b69a34c
+Build-Ids: 40962b71b2ac9e47f62bad7f1153d44235ba61e5 8bc5a9d38fa0d1450b6da716647bbfd9d4a718f1
 
 Package: bash-doc
-Source: bash (5.2.21-2.1)
-Version: 5.2.21-2.1+b3
+Source: bash (5.2.32-1)
+Version: 5.2.32-1+b1
 Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 3122
@@ -94,11 +94,11 @@ Replaces: bash (<< 4.3-2)
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Priority: optional
 Section: doc
-Filename: pool/main/b/bash/bash-doc_5.2.21-2.1+b3_all.deb
-Size: 1598904
-SHA256: e32b8391cc9c70beda18e935c117ba30d70772ee1037f95816d73e778d5f7d18
-SHA1: 02e70262823fdab7d3a2aa18416ea446453ccf7c
-MD5sum: c19d71faf49ef15ded45300ddbb3af3e
+Filename: pool/main/b/bash/bash-doc_5.2.32-1+b1_all.deb
+Size: 1599036
+SHA256: 91b754b9708550ab5adc69bcc08526c8b7e0c53dd7952f5098fde44178efdf5c
+SHA1: 3c3b3b6763974bea430460ff266ce1dc4b98c836
+MD5sum: aca5d8898b3532ece366a30398c0b54a
 Description: Documentation and examples for the GNU Bourne Again SHell
  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file.  Bash also
@@ -108,23 +108,23 @@ Description: Documentation and examples for the GNU Bourne Again SHell
  examples and the main changelog.
 
 Package: bash-static
-Source: bash (5.2.21-2.1)
-Version: 5.2.21-2.1+b3
+Source: bash (5.2.32-1)
+Version: 5.2.32-1+b1
 Architecture: arm64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 2388
 Depends: passwd (>= 1:4.0.3-10), debianutils (>= 5.6-0.1)
 Suggests: bash-doc
-Built-Using: glibc (= 2.39-6)
+Built-Using: glibc (= 2.39-7)
 Multi-Arch: foreign
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Priority: optional
 Section: shells
-Filename: pool/main/b/bash/bash-static_5.2.21-2.1+b3_arm64.deb
-Size: 974612
-SHA256: b32a2e8c54bb7f3580265db3ff060f7fdec0ca5b5dfe6668ee01c2f7394996b4
-SHA1: 57c94d863231a7ebbe0f6cd839a9e51b677a0a41
-MD5sum: f827e856eb7bd83d1f14d42f657d904d
+Filename: pool/main/b/bash/bash-static_5.2.32-1+b1_arm64.deb
+Size: 975260
+SHA256: 0b364a30b2fda69832a157768b0cbea10a9285f53d21a929c193c5090bf48290
+SHA1: 335a3e39ca53fd1eb1f0936a1660ff769cfaca8f
+MD5sum: 468ab3bf73601d273d5037937fd1df05
 Description: GNU Bourne Again SHell (static version)
  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file.  Bash also
@@ -133,20 +133,20 @@ Description: GNU Bourne Again SHell (static version)
  Statically linked.
 
 Package: bash-static-dbgsym
-Source: bash (5.2.21-2.1)
-Version: 5.2.21-2.1+b3
+Source: bash (5.2.32-1)
+Version: 5.2.32-1+b1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 1747
-Depends: bash-static (= 5.2.21-2.1+b3)
+Depends: bash-static (= 5.2.32-1+b1)
 Priority: optional
 Section: debug
-Filename: pool/main/b/bash/bash-static-dbgsym_5.2.21-2.1+b3_arm64.deb
-Size: 1496696
-SHA256: 10f85a7b7d7ab0caa03705f733a7bc18355f2c7fcad2c46ee140da262ede4243
-SHA1: d8e5357b701c95bf2842eb71f6fce55e68f3a7b2
-MD5sum: 6337b50f273ad3b49251c669492c6fc2
+Filename: pool/main/b/bash/bash-static-dbgsym_5.2.32-1+b1_arm64.deb
+Size: 1496688
+SHA256: d0b98c58ce9be7b6f0c08d306614250b7fa45931c2e7a102ca6a23b6da265dc1
+SHA1: 205824339e5af058a724573578ec71002e1fdd4e
+MD5sum: e7422cb675717e5a3cc8d1d26c1dfbb4
 Description: debug symbols for bash-static
-Build-Ids: 5914e01b1d5fed0f66e61eb5c3feba36ccb874c9
+Build-Ids: efd32421d36a58bb1487de67f9d818bf7938d9fe
 

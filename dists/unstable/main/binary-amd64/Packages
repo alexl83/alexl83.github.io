@@ -49,8 +49,8 @@ Description: Bash loadable builtins - headers & examples
  necessary headers to compile your own builtins and lots of examples.
 
 Package: bash-doc
-Source: bash (5.2.21-2.1)
-Version: 5.2.21-2.1+b3
+Source: bash (5.2.32-1)
+Version: 5.2.32-1+b1
 Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 3122
@@ -58,11 +58,11 @@ Replaces: bash (<< 4.3-2)
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Priority: optional
 Section: doc
-Filename: pool/main/b/bash/bash-doc_5.2.21-2.1+b3_all.deb
-Size: 1598904
-SHA256: e32b8391cc9c70beda18e935c117ba30d70772ee1037f95816d73e778d5f7d18
-SHA1: 02e70262823fdab7d3a2aa18416ea446453ccf7c
-MD5sum: c19d71faf49ef15ded45300ddbb3af3e
+Filename: pool/main/b/bash/bash-doc_5.2.32-1+b1_all.deb
+Size: 1599036
+SHA256: 91b754b9708550ab5adc69bcc08526c8b7e0c53dd7952f5098fde44178efdf5c
+SHA1: 3c3b3b6763974bea430460ff266ce1dc4b98c836
+MD5sum: aca5d8898b3532ece366a30398c0b54a
 Description: Documentation and examples for the GNU Bourne Again SHell
  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file.  Bash also
