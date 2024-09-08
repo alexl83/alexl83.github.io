@@ -4,8 +4,8 @@ Hash: SHA256
 Origin: kalian
 Label: kalian
 Codename: unstable
-Date: Sun, 25 Aug 2024 13:16:33 UTC
-Architectures: arm64 amd64
+Date: Sun, 08 Sep 2024 09:54:40 UTC
+Architectures: arm64 amd64 i386
 Components: main
 Description: Apt repository for armbian/kali/debian support
 MD5Sum:
@@ -15,6 +15,9 @@ MD5Sum:
  421b5a99ceb3800aae691ad4a061def3 3635 main/binary-amd64/Packages
  a24bb285bcb7b01ce987938960a9ccd3 1421 main/binary-amd64/Packages.gz
  2bd1c3adebe63256e94e521b7d8e914e 125 main/binary-amd64/Release
+ bb3234185f28f880146b94b6992ef916 3629 main/binary-i386/Packages
+ 4fcc02f920cd87f9d3152c9bf1f6eb39 1423 main/binary-i386/Packages.gz
+ e4ace571d5bf9ccbce03cfcb39a00908 124 main/binary-i386/Release
  51be7669944db12d280a86dc8e436f08 1685 main/source/Sources
  34c64dc2f93f138f6cf0aa423d9c4973 907 main/source/Sources.gz
  5009cdc0324ea9052086b91ecce7b9bf 126 main/source/Release
@@ -25,6 +28,9 @@ SHA1:
  0971d623ebcd426e8eeaabe139c92e4b8d420038 3635 main/binary-amd64/Packages
  6880f8562b9ed02440bd1ba8877cf597a64b75de 1421 main/binary-amd64/Packages.gz
  840716b801c83c8007290dd860eafbbc26c446c8 125 main/binary-amd64/Release
+ ee6b268743132a670ebe25e46663c72fd83f7a4e 3629 main/binary-i386/Packages
+ 29e2296c4a4b40ca0526f0ab7ff9d5c16ca466b8 1423 main/binary-i386/Packages.gz
+ 62629023c4987438e8f8e75b400ae8fed84c22b1 124 main/binary-i386/Release
  71259b9e88f872d55b26e3b565cfdda74ca48022 1685 main/source/Sources
  297ff10d6422304a4b81f33ca4f45c8bec40e0ee 907 main/source/Sources.gz
  640e43f7d776128e3234d216ec863cd11fe51254 126 main/source/Release
@@ -35,13 +41,16 @@ SHA256:
  c3cbbf8a10baf2c6c8d792baf334f4a4c1bfee176faf55489ba633c998118a0b 3635 main/binary-amd64/Packages
  1bffc4c216ad18e8cb3993e4bfe2719c8d03b86847e142b62cd92e98438ef776 1421 main/binary-amd64/Packages.gz
  2223e0efeb96229f75334c439d715232873849f0c84fbbd7ac600b4a21c6918c 125 main/binary-amd64/Release
+ 2be5b3330439313fbbb157e14421f449d1b0f120412817a06cce48d493c4d926 3629 main/binary-i386/Packages
+ 62318ebc26f916d87d5361426145eb5a9c643974b04443fb19ed7601ed037c16 1423 main/binary-i386/Packages.gz
+ eb398b974b4a75057c5576114e15c352d19fc5dbffd1a280d9c9a48e524f4d79 124 main/binary-i386/Release
  b4da85ff57ab616ef2002fa4ec2ce2a3c139025125a5a3fcf8046bc7e71bd250 1685 main/source/Sources
  9c7d95677134d20b515096e83d62202c1878ce27c839f56f4224b6b952d67cd9 907 main/source/Sources.gz
  743a89aae99d685364846aa0cdeded3dc737f02c13513c1376e9c7e7cdd8c712 126 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEAREIAB0WIQT0u6lIX4+9i4OfOh1pcNXl7S6FrwUCZssutgAKCRBpcNXl7S6F
-r5iHAQCPyDIIc8FdhOAopsRpkHv6MkIsea5vq3B7bHFCSAibewD+LVO7fLwlCA4f
-intNPnJbIfT0KVjb68+bD8Yt6mETJZs=
-=f7Cv
+iHUEAREIAB0WIQT0u6lIX4+9i4OfOh1pcNXl7S6FrwUCZt10YAAKCRBpcNXl7S6F
+rwOdAP0TfWmrvvYyAWaRSyOEcQJBvsMLmYugSV+P1mXpJV5+GQD/c2mWREy/bqxg
+URdAdUI8IqZjp7cmOGOWM7NC3lwMQRI=
+=dOWT
 -----END PGP SIGNATURE-----
