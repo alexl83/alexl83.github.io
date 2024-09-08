@@ -7,7 +7,7 @@
 	echo "deb [arch=${ARCH} signed-by=/usr/share/keyrings/kalian.gpg] https://raw.githubusercontent.com/alexl83/alexl83.github.io/main unstable main" | sudo tee /etc/apt/sources.list.d/kalian.list
  	sudo apt update
 
-Choose `${ARCH}` based on your system architecture: this repo supports `arm64` `amd64` and `i386`
+Choose `${ARCH}` based on your system architecture: this repo supports `arm64` `amd64` `i386`
 
 ## Accessing `source` repository
 	echo "deb-src [signed-by=/usr/share/keyrings/kalian.gpg] https://raw.githubusercontent.com/alexl83/alexl83.github.io/main unstable main" | sudo tee -a /etc/apt/sources.list.d/kalian.list
